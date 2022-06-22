@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet"
+href="testsite2.css" />
+<title>Super Cars ID</title>
+
+</head>
+
+<body id="clairsombre">
+    <section class="mainSection">
+   
+<nav><h1><strong>Super Cars ID</strong></h1>
+    <button id="sombre" onclick=myClick()>Mode Clair</div></button></nav>
+ <img src="Capture d’écran (1).png"  id="accueil"/><img src="Capture d’écran (1).png"  id="accueil"/><img src="Capture d’écran (1).png"  id="accueil"/><img src="Capture d’écran (1).png"  id="accueil"/></h1>
+       <p>This is a website where you can find out more about some cars. Seen a Ferrari 458
+           and wanna know more about that car ? This is the website you have been searching for.
+       </p>
+       <h3><a href="Bugatti.html">Bugatti</a></h3>
+        <h2><a href="Ferrari.html">Ferrari</a></h2>
+        <h4><a href="Lamborghini.html">Lamborghini</a></h4>
+<div id="FloatingF1a"></div>
+<script>
+    console.log("bonjour")
+    color = -1;
+function myClick() {
+    console.log("CLICK")
+    console.log(color)
+    if (color == -1) {
+        color = color * -1;
+        document.getElementById("clairsombre").style.backgroundColor = "white";
+        document.getElementById("clairsombre").style.color = "black";
+        document.getElementById("sombre").textContent = "Mode Sombre";
+        //console.log("color: ", document.getElementById("body").style.backgroundColor);
+    } else {
+        color = color * -1;
+        document.getElementById("clairsombre").style.backgroundColor = "black";
+        document.getElementById("clairsombre").style.color = "white";
+        document.getElementById("sombre").textContent = "Mode Clair";
+        //console.log("color: ", document.getElementById("body").style.backgroundColor); 
+    }
+}
+</script>
+
+
+
+</section>       
+</body>
+</html>
